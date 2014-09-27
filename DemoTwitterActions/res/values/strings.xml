@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">TwitterTutorialPartTwo</string>
+    <string name="twitter_consumer_key">SIwPqC2F05rYmwxHunxhsK7f5</string>
+    <string name="twitter_consumer_secret">TRt6VaSOV3OU4fZ3LqvYZ9cCk5L7ozmUlDwO9gXPTe6hrBP9jJ</string>
+    <string name="twitter_access_token">26801916-5K831gsmj9pksboFw5PsiTb3yOxuccu6BmzIOSoZZ</string>
+    <string name="twitter_access_token_secret">4ztpTajWpRZRW3I4EsZDt1cJ62PGu9WHfc9rGypR55LrE</string>
+    <string name="please_wait_title"> Please wait </string>
+    <string name="authenticating_your_app_message"> Authenticating your app &#8230; </string>
+    <string name="reply_text"> Reply </string>
+    <string name="retweet_text"> Retweet </string>
+    <string name="cancel_text"> Cancel </string>
+    <string name="retweet_this_to_your_followers_text"> Retweet this to your followers? </string>
+    <string name="cannot_retweet_status_text"> Cannot retweet status. </string>
+    <string name="success_text"> Success </string>
+    <string name="fail_text"> Fail </string>
+    <string name="fetch_text"> Fetch </string>
+    <string name="hashtag_text"> add #hashtags with comma </string>
+    <string name="tweet_char_text"> 140 </string>
+
+</resources>

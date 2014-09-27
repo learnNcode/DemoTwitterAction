@@ -1,0 +1,38 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#C0C0C0" >
+
+    <Button
+        android:id="@+id/twitterSocial_fetch_list_button"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:focusable="true"
+        android:text="@string/fetch_text" />
+
+    <EditText
+        android:id="@+id/hashtag_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_toLeftOf="@id/twitterSocial_fetch_list_button"
+        android:layout_toStartOf="@id/twitterSocial_fetch_list_button"
+        android:hint="@string/hashtag_text"
+        android:layout_alignBottom="@id/twitterSocial_fetch_list_button" 
+        android:layout_alignTop="@id/twitterSocial_fetch_list_button"/>
+
+    <ListView
+        android:id="@android:id/list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/twitterSocial_fetch_list_button"
+        android:layout_margin="5dp"
+        android:descendantFocusability="beforeDescendants"
+        android:dividerHeight="3dp" >
+    </ListView>
+
+</RelativeLayout>

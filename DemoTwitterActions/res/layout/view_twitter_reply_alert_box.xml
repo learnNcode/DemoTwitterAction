@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TextView
+        android:id="@+id/socialTwitterReply_title"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="5dp"
+        android:gravity="center"
+        android:visibility="visible" />
+
+    <EditText
+        android:id="@+id/socialTwitterReply_reply"
+        android:layout_width="fill_parent"
+        android:layout_height="150dp"
+        android:layout_below="@id/socialTwitterReply_title"
+        android:inputType="textMultiLine"
+        android:maxLength="140" />
+
+    <TextView
+        android:id="@+id/socialTwitterReply_char_count"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/socialTwitterReply_reply"
+        android:layout_marginRight="3dp"
+        android:text="@string/tweet_char_text" >
+    </TextView>
+
+</RelativeLayout>
